@@ -72,7 +72,7 @@ foreach ($pose_ids as $pose_id) {
       </div>
       <div class="col-md-6">
         <p class="mb-3" id="statusText"></p>
-        <video id="render">
+        <video id="render" class="w-100" src="/render.mp4?<?php echo time() ?>" controls autoplay loop>
         </video>
       </div>
     </div>
